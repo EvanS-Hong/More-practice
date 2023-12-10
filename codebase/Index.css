@@ -1,0 +1,178 @@
+.top-row {
+width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links1 {
+  display: flex;
+}
+
+.links1 > p {
+  margin-right: 30%;
+  font-style: italic;
+  color: white;
+  text-decoration:underline;
+  text-decoration-color: white:;
+
+}
+
+.background1 {
+  position: absolute;
+  max-height: 80vh;
+  width: 100vw;
+  object-fit: fill;
+  z-index: -1;
+}
+
+.mountain {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.main-text {
+  margin-top: 200px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.main-text > h1{
+  font-size: 3.9vw;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.LA {
+  color: rgb(77,77,77);
+}
+
+.M {
+  margin-top: -4%;
+  color: rgb(65,79,107);
+}
+
+.middle-row {
+  margin-top: 420px;
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle-left {
+  display: flex;
+}
+
+.middle-left>p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-text2 {
+  margin-left: 5px;
+
+}
+
+.LA2 {
+  color: rgb(77, 77, 77);
+}
+
+.M2 {
+  margin-top: -20px;
+  color: rgb(65, 79, 107);
+}
+
+.links2 {
+  display: flex;
+}
+
+.links2 > p {
+  margin-right: 30%;
+  font-style: italic;
+  color: rgb(65, 79, 107);
+  text-decoration: underline;
+  text-decoration-color: rgb(65, 79, 107):;
+}
+
+.background2 {
+  position: absolute;
+  margin-top: 445px;
+  max-height: 74vh;
+  width: 100vw;
+  object-fit: fill;
+  z-index: -1;
+}
+
+.mountain {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.main-text2 {
+  margin-left: 20%;
+}
+
+.body-number {
+  display: flex;
+}
+
+.body-number > h1.number {
+  font-size: 7rem;
+  color: rgb(112, 127, 154);
+  opacity: 2;
+}
+
+.body-number > .title-text {
+  margin-top: 135px;
+  margin-left: -23px;
+  color: rgb(10, 34, 82);
+  font-size: 1.3rem;
+
+}
+
+.main-text2 > p {
+  margin-top: -90px;
+  margin-left: 70px;
+  margin-right: 30%;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: column;
+  background: rgb(55, 67, 90);
+  position: absolute;
+  bottom: -600px;
+  opacity: .90;
+  width: 100vw;
+  height: 190px;
+}
+
+.selectors>img {
+  display: block;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 150px;
+  width: 250px;
+}
+
+#buttons {
+  display: block;
+  margin-top: 7px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#buttons>i {
+  font-size: 1rem;
+}
+
+.hidden {
+  display: none !important;
+}
